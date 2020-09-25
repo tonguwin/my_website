@@ -26,7 +26,7 @@ module.exports = {
     {
       resolve: "gatsby-source-prismic-graphql",
       options: {
-        repositoryName: "todnguyen", // (REQUIRED, replace with your own)
+        repositoryName: "todnguyen.prismic.io", // (REQUIRED, replace with your own)
         linkResolver: () => post => `/${post.uid}`,
       },
     },
@@ -39,7 +39,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/oscar-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/oscar-icon.jpg`, // This path is relative to the root of the site.
       },
     },
     // https://www.gatsbyjs.org/packages/gatsby-plugin-google-analytics/
