@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Todd Nguyen`,
-    description: `A starter powered by Gatsby and Prismic to showcase portfolios and blogs.`,
+    description: `Find out a little bit about me, Todd Nguyen`,
     author: `Marguerite Roth | marguerite.io`,
   },
   plugins: [
