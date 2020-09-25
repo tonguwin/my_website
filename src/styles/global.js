@@ -3,7 +3,10 @@ import colors from "styles/colors"
 import dimensions from "styles/dimensions"
 
 const globalStyles = css`
-  html,
+  html {
+    background-color: #131313;
+  }
+  ,
   body,
   #root {
     margin: 0;
@@ -17,7 +20,7 @@ const globalStyles = css`
     margin: 0 auto;
     font-size: 16px;
     line-height: 1.5;
-    color: ${colors.grey900};
+    color: #ebebeb;
     -webkit-font-smoothing: antialiased;
 
     @media (max-width: ${dimensions.maxwidthMobile}px) {
@@ -47,3 +50,5 @@ const globalStyles = css`
 `
 
 export default globalStyles
+
+// font color stuff here

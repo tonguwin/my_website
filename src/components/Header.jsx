@@ -58,7 +58,7 @@ const HeaderLinks = styled("div")`
 
     &:hover {
       &:after {
-        background: ${colors.blue500};
+        background: yellow;
         transition: 100ms ease-in-out background;
       }
     }
@@ -80,7 +80,7 @@ const Header = () => (
       </Link>
       <HeaderLinks>
         <Link activeClassName="Link--is-active" to="/work">
-          About
+          Projects
         </Link>
         <Link activeClassName="Link--is-active" to="/blog">
           Blog
