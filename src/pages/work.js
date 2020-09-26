@@ -51,7 +51,7 @@ const Work = ({ projects, meta }) => (
       ].concat(meta)}
     />
     <Layout>
-      <WorkTitle>Projects</WorkTitle>
+      <WorkTitle>Stuff I've created</WorkTitle>
       <>
         {projects.map((project, i) => (
           <ProjectCard

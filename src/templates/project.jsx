@@ -9,7 +9,6 @@ import Button from "components/_ui/Button"
 import Layout from "components/Layout"
 
 const ProjectHeroContainer = styled("div")`
-  background: ${colors.grey200};
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -19,7 +18,7 @@ const ProjectHeroContainer = styled("div")`
   margin-bottom: 3.5em;
 
   img {
-    max-width: 600px;
+    max-width: 900px;
   }
 `
 
@@ -30,9 +29,24 @@ const ProjectTitle = styled("div")`
 `
 
 const ProjectBody = styled("div")`
-  max-width: 550px;
+  max-width: 1100px;
   margin: 0 auto;
+  a {
+    text-decoration: none;
+    transition: all 100ms ease-in-out;
 
+    &:nth-of-type(1) {
+      color: #ffc800;
+    }
+
+    &:hover {
+      cursor: pointer;
+      transition: all 100ms ease-in-out;
+
+      &:nth-of-type(1) {
+        color: #ffae00;
+      }
+    }
   .block-img {
     margin-top: 3.5em;
     margin-bottom: 0.5em;
