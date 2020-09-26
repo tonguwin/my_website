@@ -1,8 +1,8 @@
 //Dimensions for device media queries and layout padding
 const dimensions = {
   //pixels
-  maxwidthDesktop: "90%",
-  maxwidthTablet: "90%",
+  maxwidthDesktop: 1500,
+  maxwidthTablet: "100%",
   maxwidthMobile: 600,
 
   //ems

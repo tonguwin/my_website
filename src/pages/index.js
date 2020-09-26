@@ -11,11 +11,13 @@ import About from "components/About"
 import Layout from "components/Layout"
 import ProjectCard from "components/ProjectCard"
 
+import Picture from "../images/oscar-icon.jpg"
+
 const Hero = styled("div")`
   padding-top: 2.5em;
   padding-bottom: 3em;
   margin-bottom: 6em;
-  max-width: 900px;
+  max-width: 1400px;
 
   @media (max-width: ${dimensions.maxwidthMobile}px) {
     margin-bottom: 3em;
@@ -32,7 +34,7 @@ const Hero = styled("div")`
         color: #129dde;
       }
       &:nth-of-type(2) {
-        color: #b31010;
+        color: #b3373d;
       }
       &:nth-of-type(3) {
         color: #ffb300;
@@ -53,7 +55,7 @@ const Hero = styled("div")`
           background-color: #9dcbe0;
         }
         &:nth-of-type(2) {
-          color: #b31010;
+          color: #b3373d;
           background-color: #ebb9bb;
         }
         &:nth-of-type(3) {
