@@ -182,3 +182,5 @@ ProjectCard.propTypes = {
   description: PropTypes.array.isRequired,
   uid: PropTypes.string.isRequired,
 }
+
+//added resume
