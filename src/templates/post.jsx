@@ -9,7 +9,7 @@ import colors from "styles/colors"
 import Layout from "components/Layout"
 
 const PostHeroContainer = styled("div")`
-  max-height: 500px;
+  max-height: 100%;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -60,9 +60,25 @@ const PostTitle = styled("div")`
 `
 
 const PostBody = styled("div")`
-  max-width: 800px;
+  max-width: 1000px;
   margin: 0 auto;
 
+  a {
+    text-decoration: none;
+    transition: all 100ms ease-in-out;
+
+    &:nth-of-type(1) {
+      color: #ffc800;
+    }
+
+    &:hover {
+      cursor: pointer;
+      transition: all 100ms ease-in-out;
+
+      &:nth-of-type(1) {
+        color: #ffae00;
+      }
+    }
   .block-img {
     margin-top: 3.5em;
     margin-bottom: 0.5em;
@@ -70,6 +86,7 @@ const PostBody = styled("div")`
     img {
       width: 100%;
     }
+
   }
 `
 
