@@ -50,7 +50,7 @@ const PostCategory = styled("div")`
 `
 
 const PostTitle = styled("div")`
-  max-width: 550px;
+  max-width: 600px;
   margin: 0 auto;
   text-align: center;
 
@@ -113,7 +113,7 @@ const Post = ({ post, meta }) => {
   return (
     <>
       <Helmet
-        title={`${post.post_title[0].text} | Prist, Gatsby & Prismic Starter`}
+        title={`${post.post_title[0].text}`}
         titleTemplate={`%s | ${meta.title}`}
         meta={[
           {

@@ -123,7 +123,7 @@ const WorkAction = styled(Link)`
 const RenderBody = ({ home, projects, meta }) => (
   <>
     <Helmet
-      title={meta.title}
+      title={"Home"}
       titleTemplate={`%s | ${meta.title}`}
       meta={[
         {

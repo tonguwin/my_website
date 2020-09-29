@@ -67,7 +67,7 @@ const Project = ({ project, meta }) => {
   return (
     <>
       <Helmet
-        title={`${project.project_title[0].text} | Prist, Gatsby & Prismic Starter`}
+        title={`${project.project_title[0].text}`}
         titleTemplate={`%s | ${meta.title}`}
         meta={[
           {
