@@ -18,7 +18,7 @@ const ProjectHeroContainer = styled("div")`
   margin-bottom: 3.5em;
 
   img {
-    max-width: 900px;
+    width: 100%;
   }
 `
 

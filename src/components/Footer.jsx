@@ -58,7 +58,7 @@ const Footer = () => (
       <Logo />
     </Link>
     <FooterAuthor href="https://github.com/tonguwin">
-      Website last updated through Github on 9.25.2020
+      Website last updated through Github on 10.7.2020
     </FooterAuthor>
   </FooterContainer>
 )
