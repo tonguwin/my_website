@@ -5,6 +5,8 @@ import colors from "styles/colors"
 import Logo from "components/_ui/Logo"
 import spooch from "images/oscar-icon.jpg"
 
+import './yup.css';
+
 const FooterContainer = styled("div")`
   padding-top: 3.75em;
   padding-bottom: 3em;
@@ -52,13 +54,15 @@ const FooterSpooch = styled("img")`
   margin-top: 0.25em;
 `
 
+
+
 const Footer = () => (
   <FooterContainer>
-    <Link to="/">
+    <Link className='zoom' to="/">
       <Logo />
     </Link>
-    <FooterAuthor href="https://github.com/tonguwin">
-      Website last updated through Github on 10.20.2020
+    <FooterAuthor  className='zoom' href="https://github.com/tonguwin">
+      Website last updated through Github on 1.26.2020
     </FooterAuthor>
   </FooterContainer>
 )

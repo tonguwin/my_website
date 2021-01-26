@@ -36,7 +36,7 @@ const HeaderLinks = styled("div")`
     text-decoration: none;
     border-bottom: 3px solid transparent;
     font-weight: 600;
-    font-size: 0.95em;
+    font-size: 1em;
     height: 100%;
     padding-bottom: 1.25em;
     padding-top: 0.25em;
@@ -75,9 +75,12 @@ const HeaderLinks = styled("div")`
 const Header = () => (
   <HeaderContainer>
     <HeaderContent>
-      <Link to="/">
-        <Logo />
-      </Link>
+       <HeaderLinks>
+       <Link activeClassName="Link--is-active" to="/">
+          Home
+        </Link>
+
+       </HeaderLinks>
       <HeaderLinks>
         <Link activeClassName="Link--is-active" to="/work">
           Projects

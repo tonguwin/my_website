@@ -37,10 +37,10 @@ const Hero = styled("div")`
         color: #b3373d;
       }
       &:nth-of-type(3) {
-        color: #ffb300;
+        color: #ba5979;
       }
       &:nth-of-type(4) {
-        color: ${colors.green500};
+        color: #f2c63d;
       }
       &:nth-of-type(5) {
         color: ${colors.teal500};
@@ -59,12 +59,12 @@ const Hero = styled("div")`
           background-color: #ebb9bb;
         }
         &:nth-of-type(3) {
-          color: #ffb300;
-          background-color: #f5e4bc;
+          color: #ba5979;
+          background-color: #d4a7b6;
         }
         &:nth-of-type(4) {
-          color: ${colors.green600};
-          background-color: ${colors.green200};
+          color: #f2c63d;
+          background-color: #4a4a49;
         }
         &:nth-of-type(5) {
           color: ${colors.teal600};

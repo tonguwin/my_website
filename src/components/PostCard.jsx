@@ -112,3 +112,4 @@ PostCard.propTypes = {
   description: PropTypes.array.isRequired,
   uid: PropTypes.string.isRequired,
 }
+
