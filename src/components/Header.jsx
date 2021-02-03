@@ -79,7 +79,6 @@ const Header = () => (
        <Link activeClassName="Link--is-active" to="/">
           Home
         </Link>
-
        </HeaderLinks>
       <HeaderLinks>
         <Link activeClassName="Link--is-active" to="/work">
