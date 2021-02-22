@@ -55,7 +55,7 @@ const ProjectCardContainer = styled(Link)`
 `
 
 const ProjectCardContent = styled("div")`
-  background: #68aec2;
+  background: #56a4bb ;
   padding: 4em 3em 2.25em 3em;
   position: relative;
 

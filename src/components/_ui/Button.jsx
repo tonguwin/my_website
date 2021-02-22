@@ -46,7 +46,7 @@ const ButtonContainer = styled("button")`
   }
 
   &.Button--secondary {
-    background: #68aec2;
+    background: #56a4bb;
     color: #ebebeb;
     padding: 0.95em 1.8em;
     font-size: 0.95rem;
