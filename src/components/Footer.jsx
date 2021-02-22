@@ -62,7 +62,7 @@ const Footer = () => (
       <Logo />
     </Link>
     <FooterAuthor  className='zoom' href="https://github.com/tonguwin">
-      Website last updated through Github on 2.3.2021
+      Website last updated through Github on 2.22.2021
     </FooterAuthor>
   </FooterContainer>
 )
