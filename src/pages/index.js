@@ -34,7 +34,7 @@ const Hero = styled("div")`
         color: #129dde;
       }
       &:nth-of-type(2) {
-        color: #b3373d;
+        color: #4F919F;
       }
       &:nth-of-type(3) {
         color: #ba5979;
@@ -55,8 +55,8 @@ const Hero = styled("div")`
           background-color: #9dcbe0;
         }
         &:nth-of-type(2) {
-          color: #b3373d;
-          background-color: #ebb9bb;
+          color: #4F919F;
+          background-color: #C1ECF5;
         }
         &:nth-of-type(3) {
           color: #ba5979;

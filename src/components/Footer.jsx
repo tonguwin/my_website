@@ -29,7 +29,7 @@ const FooterAuthor = styled("a")`
   margin-top: 1.5em;
 
   &:hover {
-    color: ${colors.blue900};
+    color: #8FAAB0;
 
     .FooterSpooch {
       animation-name: rotate;
@@ -62,7 +62,7 @@ const Footer = () => (
       <Logo />
     </Link>
     <FooterAuthor  className='zoom' href="https://github.com/tonguwin">
-      Website last updated through Github on 2.22.2021
+      Website last updated through Github on 6.13.2021
     </FooterAuthor>
   </FooterContainer>
 )
